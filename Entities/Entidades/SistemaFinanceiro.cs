@@ -16,7 +16,7 @@ namespace Entities.Entidades
         public int DiaFechamento { get; set; }
         public bool GerarCopiaDespesa { get; set; }
         public int MesCopia { get; set; }
-        public int AnoCodigo { get; set; }
+        public int AnoCopia { get; set; }
 
     }
 }

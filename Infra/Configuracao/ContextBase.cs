@@ -41,9 +41,8 @@ namespace Infra.Configuracao
 
         public string ObterStringConexao()
         {
-            return "Data Source=NBQSP-FC693;Initial Catalog=FINANCEIRO_2023;Integrated Security=False;User ID=sa;Password=1234;Connect Timeout=15;Encrypt=False;TrustServerCertificate=False";
+            return "Data Source=localhost;Initial Catalog=SISTEMA_FINANCEIRO;Persist Security Info=True;TrustServerCertificate=True; User ID=sa;Password=1q2w3e4r@#$";
 
-            //return "Data Source=127.0.0.1;Initial Catalog=FINANCEIRO_2023;Integrated Security=True"; // Evitar
         }
 
 
